@@ -27,7 +27,7 @@ trends.load(['real', 'hot'], function (err, result) {
     {
       "title": "강성",
       "link": "https://search.naver.com/search.naver?where=m&sm=mtp_lve&query=%EA%B0%95%EC%84%B1",
-      "state": "up",
+      "type": "+",
       "num": 270,
       "ctime": 1450853340
     },
@@ -37,7 +37,7 @@ trends.load(['real', 'hot'], function (err, result) {
     {
       "title": "택시 홍예슬",
       "link": "https://search.naver.com/search.naver?where=m&sm=mtp_lve&query=%ED%83%9D%EC%8B%9C%20%ED%99%8D%EC%98%88%EC%8A%AC",
-      "state": "sm",
+      "type": "0",
       "num": 0,
       "ctime": 1450846800
     },
@@ -45,6 +45,9 @@ trends.load(['real', 'hot'], function (err, result) {
   ]
 }
 ```
+
+### type list
+* `+`, `-`, `0`, `new`
 
 ## LICENSE
 
